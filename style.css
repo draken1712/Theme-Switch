@@ -8,14 +8,24 @@
     font-size: 16px;
     border-radius:  20px;
     padding: 10px 20px;
-    margin-top: 50vh;
+    margin-top: 40vh;
     display: inline;
     background-color: rgb(185, 185, 171);
     cursor: pointer;
     font-weight: 400;
 }
 body{
-    display: flex;
-    justify-content: center;
     text-align: center;
+}
+p{
+    font-size: 50px;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
 }

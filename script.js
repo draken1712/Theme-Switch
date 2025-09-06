@@ -1,14 +1,19 @@
 let butmode = document.querySelector("#btn");
 let currentmode = "light";
+let body = document.querySelector("body")
 
 butmode.addEventListener("click", () =>{
     if(currentmode === "light"){
-        currentmode = "Dark";
-        document.body.style.backgroundColor = "black";
+        currentmode = "dark";
+        body.classList.add("dark")
+        body.classList.remove("light")
+
     }
     else{
         currentmode = "light";
-        document.body.style.backgroundColor = "white";
+        body.classList.add("light");
+         body.classList.remove("dark")
+       
     }
     console.log(currentmode);
 });
