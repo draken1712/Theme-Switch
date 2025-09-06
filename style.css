@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#btn{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius:  20px;
+    padding: 10px 20px;
+    margin-top: 50vh;
+    display: inline;
+    background-color: rgb(185, 185, 171);
+    cursor: pointer;
+    font-weight: 400;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
